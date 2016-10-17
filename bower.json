@@ -1,0 +1,27 @@
+{
+  "name": "single-page-admin-lte",
+  "homepage": "https://github.com/geastham/single-page-admin-lte",
+  "authors": [
+    "Garrett Eastham <garrett.eastham@gmail.com>"
+  ],
+  "description": "Single page implementation of AdminLTE",
+  "main": "index.html",
+  "keywords": [
+    "admin-lte",
+    "angularjs",
+    "\"single",
+    "page\""
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
