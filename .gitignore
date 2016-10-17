@@ -1,3 +1,4 @@
 # Directories to Ignore #
 #########################
 data/
+bower_components/
