@@ -5,7 +5,11 @@ angular.module('apj-browser', [
   'ngRoute'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  //$locationProvider.hashPrefix('!');
+  $locationProvider.hashPrefix('!');
 
-  //$routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.
+    when('/app', {
+      templateUrl: '//' + document.domain + '/app/views/app.template.html'
+    }).
+    otherwise('/app');
 }]);
