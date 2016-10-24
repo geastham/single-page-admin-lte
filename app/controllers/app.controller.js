@@ -1,7 +1,7 @@
 'use strict';
 
 // Main app controller
-angular.module('apj-browser').controller('AppController', ['$scope',
+angular.module('admin-lte').controller('AppController', ['$scope',
   function ($scope) {
     console.log("Loaded app controller...");
 
