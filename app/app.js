@@ -9,7 +9,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
   $routeProvider.
     when('/app', {
-      templateUrl: '//' + document.domain + '/app/views/app.template.html'
+      templateUrl: 'app.template'
     }).
     otherwise('/app');
 }]);

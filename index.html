@@ -188,10 +188,18 @@ desired effect
 <script src="app/app.js" type="text/javascript"></script>
 <script src="app/controllers/app.controller.js" type="text/javascript"></script>
 
-<!-- CORS Template Loading Hack -->
-<script type="text/javascript">
-  // Manually set document.domain
-  document.domain = 'ebust.it';
+<!-- In-line Template Loading -->
+<script type="text/ng-template" id="app.template">
+  <section class="content" ng-controller="AppController">
+
+    <ul>
+      <li ng-repeat="phone in phones">
+        <span>{{phone.name}}</span>
+        <p>{{phone.snippet}}</p>
+      </li>
+    </ul>
+
+  </section>
 </script>
 
 <!-- Papa Parse -->
